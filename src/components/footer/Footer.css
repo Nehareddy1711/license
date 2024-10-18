@@ -1,0 +1,73 @@
+/* General footer styling */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center; /* Center-aligns the content in each section */
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .footer-section p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the branch list */
+  .branch-list {
+    list-style-type: disc; /* Dots before list items */
+    padding-left: 20px; /* Indent the list */
+    text-align: left; /* Align branch list to the left */
+    display: inline-block;
+  }
+  
+  /* Ensure list items look nice and aligned */
+  .branch-list li {
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  /* Align logo properly */
+  .footer-logo {
+    width: 100px; /* Adjust the size of the logo */
+    height: 60px;
+    margin-right: 10px;
+  }
+  
+  /* Styling the contact icons */
+  .footer-icon {
+    margin-right: 8px;
+    font-size: 1.2rem;
+    vertical-align: middle; /* Align icons with text */
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section {
+      width: 80%;
+      margin-bottom: 30px;
+    }
+  }
+  
